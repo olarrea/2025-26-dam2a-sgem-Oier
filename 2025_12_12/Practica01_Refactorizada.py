@@ -38,6 +38,7 @@ def calcular_nota(alumno):
 
     return trabajos * 0.10 + test * 0.50 + practicas * 0.40
 
+
 def obtener_calificacion(nota):
     if nota >= 90:
         return "Sobresaliente"
@@ -49,6 +50,7 @@ def obtener_calificacion(nota):
         return "Suficiente"
     else:
         return "Necesita mejorar"
+
 
 def mostrar_alumno(alumno, nota, calificacion):
     print(f"\n{alumno['nombre']}")
